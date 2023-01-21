@@ -1,0 +1,160 @@
+/* --- INICIO CONFIGURAÇÕES PADRÃO --- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* --- FIM CONFIGURAÇÕES PADRÃO --- */
+
+
+
+/* --- INICIO DO CONTAINER --- */
+.container {
+    width: 380px;
+    padding-top: 0.5em;
+    margin: auto;
+    margin-top: 9.10em;
+    max-width: 380px;
+    min-width: none;
+    background-color: black;
+}
+
+.espaco-select {
+    margin-left: 8.75em;
+    width: 7.80em;
+    margin-bottom: 9em;
+}
+.espaco-select select {
+    color: #cfcfcf;
+    font-size: 0.8em;
+    border: solid 1px black;
+    background-color: black;
+}
+
+.logo {
+    width: 180px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    width: 346px;
+    margin: auto;
+    color: aliceblue;
+}
+
+.formulario input {
+    width: 100%;
+    height: 3.25em;
+    color: #fff;
+    text-indent: 10px;
+    border: none;
+    border-radius: 0.2em;
+    margin-bottom: 1em;
+    background-color: #363636;
+}
+
+.formulario input::placeholder {
+    color: #A9A9A9;
+    text-indent: 1.2em;
+}
+
+input[type="submit"] {
+    color: rgb(255, 255, 255, 0.3);
+    font-size: 0.8em;
+    cursor: pointer;
+    background-color: rgb(0, 147, 245, 0.3);
+    border-radius: 0.5em;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+input[type="submit"]:hover {
+    color: #fff;
+    background-color: #0093f5;
+}
+
+.linha {
+    margin: auto;
+    width: 90%;
+    height: 0.2px;
+    background-color: #363636;
+}
+
+.ou span {
+    color: #A9A9A9;
+    padding: 6px;
+    font-size: 0.75em;
+    font-weight: bolder;
+    position: relative;
+    left: 14.80em;
+    bottom: 0.7em;
+    background-color: black;
+}
+
+.espaco-dados,
+.conta-criar {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.espaco-dados span, 
+.conta-criar span {
+    color: #A9A9A9;
+    font-size: 0.72em;
+
+}
+
+.espaco-dados a,
+.conta-criar a {
+    color: #ADD8E6;
+    font-weight: bolder;
+    font-size: 0.72em;
+    text-decoration: none;
+}
+
+.espaco-facebook {
+    width: 45%;
+    height: 1.30em;
+    text-align: center;
+    margin: auto;
+}
+
+
+.link-facebook {
+    float: left;
+    margin-left: 0.31em;
+    margin-top: 0.1em;
+}
+
+a.img-face {
+    float: left;
+}
+
+.link-facebook a {
+    color: #0093f5;
+    font-size: 0.81em;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.linha2 {
+    margin: auto;
+    width: 100%;
+    height: 0.2px;
+    margin-top: 7.50em;
+    margin-bottom: 0.5em;
+    background-color: #363636;
+}
+
+.conta-criar {
+    padding-bottom: 0.5em;
+}
+/* --- INICIO DO CONTAINER --- */
